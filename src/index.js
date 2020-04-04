@@ -75,8 +75,6 @@ class Game extends React.Component {
             }]),
             stepNumber: history.length,
             xIsNext: !this.state.xIsNext,
-            // col: x,
-            // row: y,
         })
     }
 
@@ -95,7 +93,7 @@ class Game extends React.Component {
 
       const moves = history.map((step, move) => {
           const desc = move ?
-            'Go to move #' + move + '(' + history[move].col + ',' + history[move].row + ')':
+            'Go to move #' + move + ' at (' + history[move].col + ',' + history[move].row + ')':
             'Go to game start';
 
           if(move === currentMove){
@@ -146,6 +144,7 @@ ReactDOM.render(
 
 function calculateWinner(squares) {
     const lines = [
+      // These are tripple line for winning
         [0, 1, 2],
         [3, 4, 5],
         [6, 7, 8],
