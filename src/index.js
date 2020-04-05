@@ -128,6 +128,9 @@ class Game extends React.Component {
           <div className="game-info">
             <div>{status}</div>
             <ol>{moves}</ol>
+            {(!winner && history.length === 10) && (
+              <p>There's no winner and loser</p>
+            )}
           </div>
         </div>
       );
