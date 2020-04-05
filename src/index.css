@@ -1,6 +1,7 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background: linear-gradient(0.25turn,#3f87a6, #ebf8e1, #f69d3c);
 }
   
 ol, ul {
@@ -58,4 +59,12 @@ ol, ul {
   justify-content: center;
   align-items: center;
 }
-  
+
+.square {
+  min-width: 45px;
+  min-height: 45px;
+}
+
+li>button {
+  padding: 3px 7px;
+}
