@@ -126,6 +126,9 @@ class Game extends React.Component {
             />
           </div>
           <div className="game-info">
+            {status.startsWith("Winner") &&(
+              <span role="img" aria-label="An emojis for congrats">🥂🥂🥂</span>
+            )}
             <div>{status}</div>
             <ol>{moves}</ol>
             {(!winner && history.length === 10) && (
