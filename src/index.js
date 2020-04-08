@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import Intro from './intro.js'
 
 function Square(props) {
     return (
@@ -119,6 +120,7 @@ class Game extends React.Component {
       }
       return (
         <div className="game">
+          <Intro />
           <div className="game-board">
             <Board 
                 squares={current.squares}
