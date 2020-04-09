@@ -61,6 +61,9 @@ ol, ul {
     align-items: center;
     flex-direction: column;
 }
+.game-info button {
+    cursor: pointer;
+}
 .game-board {
   display: flex;
   justify-content: center;
