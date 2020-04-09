@@ -9,9 +9,20 @@ const Intro = () => {
         Maybe this isn't a million dollar question, but it's fun.
         <ol>
           <li>Complete requirments</li>
-            <ol>
-              <li>When someone wins, highlight the three squares that caused the win.</li>
-            </ol>
+          <table>
+            <thead>
+              <tr>
+                <th>Tasks</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Highlight the winner</td>
+                <td>When someone wins, highlight the three squares that caused the win.</td>
+              </tr>
+            </tbody>
+          </table>
           <li>Make it more interesting</li>
         </ol>
       </div>

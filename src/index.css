@@ -49,7 +49,7 @@ ol, ul {
 }
 .intro-content {
     display: flex;
-    max-width: 25vw;
+    max-width: 40vw;
     margin: 4em;
     justify-content: center;
     align-items: center;
