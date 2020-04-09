@@ -174,7 +174,6 @@ function calculateWinner(squares) {
 
 function getThreeSpots(squares){
   const lines = [
-    // These are tripple line for winning
       [0, 1, 2],
       [3, 4, 5],
       [6, 7, 8],
@@ -188,12 +187,6 @@ function getThreeSpots(squares){
       const [a, b, c] = lines[i];
       if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
         const buttonList = document.querySelectorAll("button.square")
-        // let filteredList = [];
-        // buttonList.forEach(item => {
-        //   if(item.innerText == squares[a]){
-        //     filteredList.push(item)
-        //   }
-        // })
         for(let i = 0; i < buttonList.length; i++){
           if(i === a || i === b | i === c){
             buttonList[i].style.color = "#f69d3c"
