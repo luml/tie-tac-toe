@@ -78,3 +78,7 @@ ol, ul {
 li>button {
   padding: 3px 7px;
 }
+
+.intro-content table td {
+    border: 1px solid black;
+}
