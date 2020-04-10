@@ -115,6 +115,7 @@ class Game extends React.Component {
       let status;
       if(winner) {
         status = 'Winner: ' + winner
+        getThreeSpots(current.squares)
       }else{
         status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
       }
@@ -165,10 +166,35 @@ function calculateWinner(squares) {
     for (let i = 0; i < lines.length; i++) {
         const [a, b, c] = lines[i];
         if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-          // TODO a, b, c are supposed to be highlighted
           return squares[a];
         }
     }
     return null;
+}
+
+function getThreeSpots(squares){
+  const lines = [
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6],
+  ];
+  for (let i = 0; i < lines.length; i++) {
+      const [a, b, c] = lines[i];
+      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+        const buttonList = document.querySelectorAll("button.square")
+        for(let i = 0; i < buttonList.length; i++){
+          if(i === a || i === b | i === c){
+            buttonList[i].style.color = "#f69d3c"
+            buttonList[i].style.fontSize = "4em"
+          }
+        }
+        break
+      }
+  }
 }
   
