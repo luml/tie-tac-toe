@@ -84,8 +84,6 @@ li>button {
     display: grid;
     place-content: center;
     text-align: center;
-    height: 20vh;
-    background: antiquewhite;
     margin: 0 -1.5em;
-    margin-top: 38vh;
+    margin-top: 45vh;
 }
