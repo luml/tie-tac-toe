@@ -23,6 +23,11 @@ const Intro = () => {
                 <td>2020.04.09</td>
                 <td>When someone wins, highlight the three squares that caused the win.</td>
               </tr>
+              <tr>
+                <td>FootNote and flex-direction</td>
+                <td>2020.04.12</td>
+                <td>Note pad as a footer by changing FlexBox direction from row to column, and make a foot notepad.</td>
+              </tr>
             </tbody>
           </table>
           <li>Make it more interesting</li>
