@@ -81,10 +81,11 @@ li>button {
 }
 
 .foot-note {
+    position: absolute;
+    bottom: 0;
     display: grid;
     place-content: center;
     text-align: center;
-    margin: 0 -1.5em;
-    margin-top: 48vh;
+    margin-left: 43vw;
     line-height: 0;
 }
