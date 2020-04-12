@@ -43,19 +43,16 @@ ol, ul {
   
 .game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    height: 70vh;
 }
 .intro-content {
     display: flex;
-    max-width: 40vw;
     margin: 4em;
     justify-content: center;
     align-items: center;
 }
 .game-info {
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +78,14 @@ li>button {
 
 .intro-content table td {
     border: 1px solid black;
+}
+
+.foot-note {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 20vh;
+    background: antiquewhite;
+    margin: 0 -1.5em;
+    margin-top: 38vh;
 }

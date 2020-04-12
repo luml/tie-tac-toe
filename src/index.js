@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import Intro from './intro.js'
+import FootNote from './footnote.js'
 
 function Square(props) {
     return (
@@ -138,6 +139,7 @@ class Game extends React.Component {
               <p>There's no winner or loser</p>
             )}
           </div>
+          <FootNote />
         </div>
       );
     }
