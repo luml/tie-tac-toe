@@ -191,7 +191,7 @@ function getThreeSpots(squares){
         const buttonList = document.querySelectorAll("button.square")
         for(let i = 0; i < buttonList.length; i++){
           if(i === a || i === b | i === c){
-            buttonList[i].style.color = "#f69d3c"
+            buttonList[i].style.color = "teal"
             buttonList[i].style.fontSize = "4em"
           }
         }
