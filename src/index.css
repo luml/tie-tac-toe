@@ -45,6 +45,8 @@ ol, ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 900px;
+    overflow-y: scroll;
 }
 .intro-content {
     display: flex;
@@ -81,11 +83,14 @@ li>button {
 }
 
 .foot-note {
-    position: absolute;
+    width: 100vw;
+    position: fixed;
+    height: 50px;
     bottom: 0;
     display: grid;
     place-content: center;
+}
+.foot-note > div{
     text-align: center;
-    margin-left: 43vw;
-    line-height: 0;
+    line-height: 1;
 }
