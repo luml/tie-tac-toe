@@ -50,6 +50,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* TODO there's game-info layout issue before start the game */
 .game-info {
     display: flex;
     justify-content: center;
