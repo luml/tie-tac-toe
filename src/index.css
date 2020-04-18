@@ -4,10 +4,6 @@ body {
     background: linear-gradient(0.25turn,mistyRose, aliceBlue, skyBlue);
 }
   
-ol, ul {
-    padding-left: 30px;
-}
-  
 .board-row:after {
     clear: both;
     content: "";
@@ -59,6 +55,7 @@ ol, ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 30px;
 }
 .game-info button {
     cursor: pointer;
@@ -67,6 +64,7 @@ ol, ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 30px;
 }
 
 .square {
