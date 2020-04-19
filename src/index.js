@@ -204,7 +204,8 @@ function getThreeSpots(squares){
 }
 
 function reboot() {
-  // Refresh the page
+  // 1,Refresh the page
   window.location.reload()
+  // 2,Edit dom
 }
   

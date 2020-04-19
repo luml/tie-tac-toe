@@ -28,6 +28,11 @@ const Intro = () => {
                 <td>2020.04.12</td>
                 <td>Note pad as a footer by changing FlexBox direction from row to column, and make a foot notepad.</td>
               </tr>
+              <tr>
+                <td>Reboot button</td>
+                <td>2020.04.19</td>
+                <td>Hit the reboot button then whole page will be reloaded.</td>
+              </tr>
             </tbody>
           </table>
           <li>Make it more interesting</li>
