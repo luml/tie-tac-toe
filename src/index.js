@@ -139,7 +139,7 @@ class Game extends React.Component {
               <p>There's no winner or loser</p>
             )}
             {status.startsWith("Winner") &&(
-              <button onClick={reboot}>Reboot</button>
+              <button className="reboot" onClick={reboot}>Reboot</button>
             )}
           </div>
           <FootNote />
@@ -204,8 +204,6 @@ function getThreeSpots(squares){
 }
 
 function reboot() {
-  // 1,Refresh the page
   window.location.reload()
-  // 2,Edit dom
 }
   

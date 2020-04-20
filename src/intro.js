@@ -33,6 +33,11 @@ const Intro = () => {
                 <td>2020.04.19</td>
                 <td>Hit the reboot button then whole page will be reloaded.</td>
               </tr>
+              <tr>
+                <td>Button Layout</td>
+                <td>2020.04.20</td>
+                <td>Customize the button layout with linear-gradient of background</td>
+              </tr>
             </tbody>
           </table>
           <li>Make it more interesting</li>

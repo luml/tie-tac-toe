@@ -70,12 +70,23 @@ body {
 }
 
 .square {
-  min-width: 45px;
-  min-height: 45px;
+  min-width: 55px;
+  min-height: 55px;
+}
+li {
+    margin: 5px 0;
+    list-style: lower-alpha;
+}
+li>button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: linear-gradient(0.25turn, skyBlue, mistyRose);
 }
 
-li>button {
-  padding: 3px 7px;
+.reboot {
+    padding: 5px;
+    background: linear-gradient(0.25turn, mistyRose, skyBlue);
+    border-radius: 5px;
 }
 
 .intro-content table td {
