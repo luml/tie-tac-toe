@@ -96,7 +96,7 @@ li>button {
 .foot-note {
     width: 100vw;
     position: fixed;
-    height: 50px;
+    height: 100px;
     bottom: 0;
     display: grid;
     place-content: center;
