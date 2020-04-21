@@ -38,6 +38,11 @@ const Intro = () => {
                 <td>2020.04.20</td>
                 <td>Customize the button layout with linear-gradient of background</td>
               </tr>
+              <tr>
+                <td>Address element</td>
+                <td>2020.04.21</td>
+                <td>Apply address element for actual address in the footer</td>
+              </tr>
             </tbody>
           </table>
           <li>Make it more interesting</li>
