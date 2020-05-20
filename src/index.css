@@ -74,7 +74,7 @@ body {
   min-height: 55px;
 }
 li {
-    margin: 5px 0;
+    margin: 1px 0;
     list-style: lower-alpha;
 }
 li>button {
@@ -103,5 +103,5 @@ li>button {
 }
 .foot-note > div{
     text-align: center;
-    line-height: 1;
+    line-height: 0.2;
 }
